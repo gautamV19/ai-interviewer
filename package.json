@@ -1,0 +1,46 @@
+{
+  "name": "ai-interviewer",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "prebuild": "prisma generate",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.11.1",
+    "@emotion/styled": "^11.11.0",
+    "@mui/material": "^5.14.3",
+    "@prisma/client": "^5.1.1",
+    "@types/node": "20.4.5",
+    "@types/react": "18.2.17",
+    "@types/react-dom": "18.2.7",
+    "appwrite": "^11.0.0",
+    "eslint": "8.45.0",
+    "eslint-config-next": "13.4.12",
+    "google-tts-api": "^2.0.2",
+    "jsonwebtoken": "^9.0.1",
+    "next": "13.4.12",
+    "node-appwrite": "^9.0.0",
+    "openai": "^3.3.0",
+    "pdf-parse": "^1.1.1",
+    "prisma": "^5.1.1",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-social-login-buttons": "^3.9.1",
+    "react-speech-recognition": "^3.10.0",
+    "reactjs-social-login": "^2.6.2",
+    "regenerator-runtime": "^0.13.11",
+    "say": "^0.16.0",
+    "typescript": "5.1.6"
+  },
+  "devDependencies": {
+    "@types/jsonwebtoken": "^9.0.2",
+    "@types/pdf-parse": "^1.1.1",
+    "@types/react-speech-recognition": "^3.9.2",
+    "@types/regenerator-runtime": "^0.13.1",
+    "encoding": "^0.1.13"
+  }
+}
